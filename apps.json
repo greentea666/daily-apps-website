@@ -1,11 +1,29 @@
 [
   {
+    "slug": "guitar-tuner",
+    "name": "吉他調音器",
+    "category": "音樂練習",
+    "status": "intro",
+    "listed": true,
+    "symbol": "♩",
+    "tagline": "彈之前，先把音調好。",
+    "description": "吉他調音器 App，從調音開始，留一點時間給喜歡的聲音。認識這款獨立開發的吉他調音工具，閱讀吉他標準調音與練習前的小筆記。",
+    "features": [],
+    "iosUrl": null,
+    "androidUrl": null,
+    "seoTitle": "吉他調音器 App｜彈之前，先把音調好・日常 App",
+    "schemaCategory": "MusicApplication",
+    "image": "/images/guitar.jpg",
+    "cardImage": "/images/guitar-card.webp",
+    "imageAlt": "暖色光線下，雙手正在彈奏木吉他"
+  },
+  {
     "slug": "vehicle-maintenance",
     "name": "汽機車保養",
     "category": "汽機車生活",
     "status": "ios_review",
-    "tagline": "給汽車與機車的保養日常。",
-    "description": "「汽機車保養」是一款以汽車與機車保養為主題的 iOS App。從四輪通勤到兩輪出遊，讓愛車的保養日常成為生活的一部分。",
+    "tagline": "照顧愛車，也照顧每次出發。",
+    "description": "汽機車保養 App，關注汽車與機車的保養日常。從平日通勤到週末遠行，給每一段路多一份關心。",
     "features": [],
     "iosUrl": null,
     "androidUrl": null,
@@ -13,7 +31,10 @@
     "symbol": "車",
     "seoTitle": "汽機車保養 App｜汽車與機車保養介紹",
     "schemaCategory": "LifestyleApplication",
-    "platform": "iOS"
+    "platform": "iOS",
+    "image": "/drive.jpg",
+    "imageAlt": "綠意道路旁的銀色汽車",
+    "cardImage": "/drive.jpg"
   },
   {
     "slug": "income-tax-2027",
@@ -22,13 +43,16 @@
     "status": "intro",
     "listed": true,
     "symbol": "稅",
-    "tagline": "年度所得稅，從日常準備開始。",
-    "description": "認識所得稅2027 App，查看以所得稅為主題的產品介紹。與汽機車保養一起，探索關注日常需求的應用程式。",
+    "tagline": "年度的事，早一點準備。",
+    "description": "認識所得稅2027 App。把年度所得稅這件事，早一點放進生活的計畫裡，從容準備自己的年度事務。",
     "features": [],
     "iosUrl": null,
     "androidUrl": null,
     "seoTitle": "所得稅2027 App｜產品介紹與所得稅主題工具",
-    "schemaCategory": "FinanceApplication"
+    "schemaCategory": "FinanceApplication",
+    "image": "/images/tax-desk.jpg",
+    "imageAlt": "在自然光下整理紙本資料的人",
+    "cardImage": "/images/tax-desk-card.webp"
   },
   {
     "slug": "autocare",

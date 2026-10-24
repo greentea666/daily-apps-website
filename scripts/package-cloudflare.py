@@ -26,6 +26,8 @@ with tempfile.TemporaryDirectory(prefix='daily-apps-cloudflare-') as temporary:
     stage.mkdir()
     for filename in ('style.css', 'app.js', 'favicon.svg', 'drive.jpg'):
         shutil.copy2(ROOT / 'dist' / filename, stage / filename)
+    if (ROOT / 'dist' / 'images').exists():
+        shutil.copytree(ROOT / 'dist' / 'images', stage / 'images')
     env = os.environ.copy()
     env.update(SITE_ORIGIN=origin, SITE_OUTPUT_DIR=str(stage))
     subprocess.run([sys.executable, str(ROOT / 'build.py')], env=env, check=True)

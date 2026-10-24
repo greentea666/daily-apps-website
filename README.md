@@ -1,12 +1,12 @@
 # 日常 App 產品介紹網站
 
-同一個入口介紹「汽機車保養」與「所得稅2027」。使用靜態 HTML，不需要付費 API、資料庫或前端框架。
+同一個入口介紹「吉他調音器」、「汽機車保養」與「所得稅2027」。使用靜態 HTML，不需要付費 API、資料庫或前端框架。
 
 ## 更新內容
 
 - `apps.json` 集中管理名稱、類別、介紹、平台、SEO 標題、功能與商店網址。尚未確認的功能與連結留空，不會顯示假下載按鈕。
 - `listed: true` 的 App 顯示於首頁與篩選；`listed: false` 仍保留獨立頁面供既有連結使用。
-- `notes.json` 管理現有保養文章。
+- `notes.json` 管理吉他調音與保養文章。
 - 修改後執行 `python build.py`，產生頁面、JSON-LD、robots.txt、sitemap.xml 與 404 頁面。
 - 實際介面尚未提供，因此網站不展示兩款 App 的虛構截圖。所得稅2027 目前僅依產品名稱介紹，沒有推定稅率、適用年度、試算或報稅功能。
 
@@ -22,7 +22,7 @@ SITE_ORIGIN=https://your-project.pages.dev python build.py
 
 ## 搜尋與社群資訊
 
-首頁涵蓋兩款 App，各產品有獨立 title、description、canonical、Open Graph、Twitter metadata、SoftwareApplication 與 BreadcrumbList。首頁另有 App ItemList。保留原 Google 驗證標記；更換網域後仍需在 Search Console 新增並驗證新資源，提交新 sitemap。SEO 設定不保證排名或收錄。
+首頁涵蓋三款 App，各產品有獨立 title、description、canonical、Open Graph、Twitter metadata、SoftwareApplication 與 BreadcrumbList。首頁另有 App ItemList。保留原 Google 驗證標記；更換網域後仍需在 Search Console 新增並驗證新資源，提交新 sitemap。SEO 設定不保證排名或收錄。
 
 Google Fonts 用於字型載入；本網站沒有分析追蹤、表單或登入。
 
@@ -34,6 +34,7 @@ notes.json                   保養文章
 build.py                     靜態頁面與 SEO 檔案產生程式
 scripts/package-cloudflare.py  Cloudflare Direct Upload 打包程式
 dist/                        完整網站輸出與圖片、CSS、JavaScript
+  images/                    吉他、書寫情境原圖與 WebP 縮圖
 ASSETS.md                    圖片及字型來源
 ```
 
@@ -67,3 +68,7 @@ python scripts/package-cloudflare.py --origin https://實際專案名稱.pages.d
 ```
 
 上傳 `.artifacts/cloudflare-pages.zip` 至 Pages Direct Upload 即可。打包時會重新產生對應網址的 SEO 資料，並將 `index.html` 直接放在 ZIP 根目錄。Direct Upload 專案無法切換成 Git 整合專案。
+
+## 視覺與內容
+
+三款 App 使用獨立情境照片與簡短宣傳文案。吉他調音器目前尚未提供商店連結、實際介面或詳細功能，因此沒有虛構下載按鈕、平台、評分或偵測精度。情境圖片不是產品截圖，來源列於 ASSETS.md。
