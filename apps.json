@@ -1,0 +1,49 @@
+[
+  {
+    "slug": "vehicle-maintenance",
+    "name": "汽機車保養",
+    "category": "汽機車生活",
+    "status": "ios_review",
+    "tagline": "給汽車與機車的保養日常。",
+    "description": "「汽機車保養」是一款以汽車與機車保養為主題的 iOS App。從四輪通勤到兩輪出遊，讓愛車的保養日常成為生活的一部分。",
+    "features": [],
+    "iosUrl": null,
+    "androidUrl": null,
+    "listed": true,
+    "symbol": "車",
+    "seoTitle": "汽機車保養 App｜汽車與機車保養介紹",
+    "schemaCategory": "LifestyleApplication",
+    "platform": "iOS"
+  },
+  {
+    "slug": "income-tax-2027",
+    "name": "所得稅2027",
+    "category": "所得稅工具",
+    "status": "intro",
+    "listed": true,
+    "symbol": "稅",
+    "tagline": "年度所得稅，從日常準備開始。",
+    "description": "認識所得稅2027 App，查看以所得稅為主題的產品介紹。與汽機車保養一起，探索關注日常需求的應用程式。",
+    "features": [],
+    "iosUrl": null,
+    "androidUrl": null,
+    "seoTitle": "所得稅2027 App｜產品介紹與所得稅主題工具",
+    "schemaCategory": "FinanceApplication"
+  },
+  {
+    "slug": "autocare",
+    "name": "車序 AutoCare",
+    "category": "汽車生活",
+    "status": "preview",
+    "tagline": "每一次保養，都有跡可循。",
+    "description": "以保養提醒、維修紀錄與用車花費為核心的汽車保養 App 概念，讓日常照顧愛車更有條理。",
+    "features": [
+      "保養時程提醒",
+      "維修紀錄整理",
+      "用車支出檢視"
+    ],
+    "iosUrl": null,
+    "androidUrl": null,
+    "listed": false
+  }
+]

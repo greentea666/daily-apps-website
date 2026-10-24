@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://autocare-app-studio.t410002246.chatgpt.site/sitemap.xml
