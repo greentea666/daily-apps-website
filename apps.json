@@ -12,7 +12,7 @@
     "iosUrl": null,
     "androidUrl": null,
     "seoTitle": "吉他調音器 App｜彈之前，先把音調好・日常 App",
-    "schemaCategory": "MusicApplication",
+    "schemaCategory": "UtilitiesApplication",
     "image": "/images/guitar.jpg",
     "cardImage": "/images/guitar-card.webp",
     "imageAlt": "暖色光線下，雙手正在彈奏木吉他"
@@ -23,8 +23,13 @@
     "category": "汽機車生活",
     "status": "ios_review",
     "tagline": "照顧愛車，也照顧每次出發。",
-    "description": "汽機車保養 App，關注汽車與機車的保養日常。從平日通勤到週末遠行，給每一段路多一份關心。",
-    "features": [],
+    "description": "汽機車保養 App，將汽車與機車資料、保養紀錄、日期與里程計畫放在一起，並查看用車花費。從平日通勤到週末遠行，照顧每次出發。",
+    "features": [
+      "汽車、機車一起管理，保存車輛基本資料與目前里程。",
+      "記錄保養日期、里程、項目、費用與備註，也能附上收據照片。",
+      "依月份或公里數設定保養計畫；授權後接收日期通知，里程由自己更新。",
+      "按車輛與年度查看每月支出及各項保養費用。"
+    ],
     "iosUrl": null,
     "androidUrl": null,
     "listed": true,
@@ -34,7 +39,7 @@
     "platform": "iOS",
     "image": "/drive.jpg",
     "imageAlt": "綠意道路旁的銀色汽車",
-    "cardImage": "/drive.jpg"
+    "cardImage": "/images/drive-480.webp"
   },
   {
     "slug": "income-tax-2027",

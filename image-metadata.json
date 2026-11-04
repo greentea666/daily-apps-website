@@ -1,0 +1,176 @@
+{
+  "/drive.jpg": {
+    "width": 1400,
+    "height": 933,
+    "type": "image/jpeg",
+    "alt": "",
+    "variants": [
+      {
+        "src": "/images/drive-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/images/drive-960.webp",
+        "width": 960
+      }
+    ]
+  },
+  "/images/guitar.jpg": {
+    "width": 1600,
+    "height": 1067,
+    "type": "image/jpeg",
+    "alt": "",
+    "variants": [
+      {
+        "src": "/images/guitar-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/images/guitar-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/images/guitar-1600.webp",
+        "width": 1600
+      }
+    ]
+  },
+  "/images/tax-desk.jpg": {
+    "width": 1200,
+    "height": 801,
+    "type": "image/jpeg",
+    "alt": "",
+    "variants": [
+      {
+        "src": "/images/tax-desk-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/images/tax-desk-960.webp",
+        "width": 960
+      }
+    ]
+  },
+  "/images/guitar-card.webp": {
+    "width": 640,
+    "height": 427,
+    "type": "image/webp",
+    "alt": ""
+  },
+  "/images/tax-desk-card.webp": {
+    "width": 640,
+    "height": 427,
+    "type": "image/webp",
+    "alt": ""
+  },
+  "/images/vehiclecare-records.png": {
+    "width": 1206,
+    "height": 2622,
+    "type": "image/png",
+    "variants": [
+      {
+        "src": "/images/vehiclecare-records-360.webp",
+        "width": 360
+      },
+      {
+        "src": "/images/vehiclecare-records-720.webp",
+        "width": 720
+      }
+    ]
+  },
+  "/images/vehiclecare-garage.png": {
+    "width": 1206,
+    "height": 2622,
+    "type": "image/png",
+    "variants": [
+      {
+        "src": "/images/vehiclecare-garage-360.webp",
+        "width": 360
+      },
+      {
+        "src": "/images/vehiclecare-garage-720.webp",
+        "width": 720
+      }
+    ]
+  },
+  "/images/vehiclecare-reminders.png": {
+    "width": 1206,
+    "height": 2622,
+    "type": "image/png",
+    "variants": [
+      {
+        "src": "/images/vehiclecare-reminders-360.webp",
+        "width": 360
+      },
+      {
+        "src": "/images/vehiclecare-reminders-720.webp",
+        "width": 720
+      }
+    ]
+  },
+  "/images/vehiclecare-reminders-360.webp": {
+    "width": 360,
+    "height": 783,
+    "type": "image/webp"
+  },
+  "/images/tax-desk-960.webp": {
+    "width": 960,
+    "height": 641,
+    "type": "image/webp"
+  },
+  "/images/tax-desk-480.webp": {
+    "width": 480,
+    "height": 320,
+    "type": "image/webp"
+  },
+  "/images/drive-960.webp": {
+    "width": 960,
+    "height": 640,
+    "type": "image/webp"
+  },
+  "/images/drive-480.webp": {
+    "width": 480,
+    "height": 320,
+    "type": "image/webp"
+  },
+  "/images/vehiclecare-records-360.webp": {
+    "width": 360,
+    "height": 783,
+    "type": "image/webp"
+  },
+  "/images/vehiclecare-records-720.webp": {
+    "width": 720,
+    "height": 1565,
+    "type": "image/webp"
+  },
+  "/images/guitar-960.webp": {
+    "width": 960,
+    "height": 640,
+    "type": "image/webp"
+  },
+  "/images/guitar-480.webp": {
+    "width": 480,
+    "height": 320,
+    "type": "image/webp"
+  },
+  "/images/vehiclecare-garage-720.webp": {
+    "width": 720,
+    "height": 1565,
+    "type": "image/webp"
+  },
+  "/images/vehiclecare-reminders-720.webp": {
+    "width": 720,
+    "height": 1565,
+    "type": "image/webp"
+  },
+  "/images/guitar-1600.webp": {
+    "width": 1600,
+    "height": 1067,
+    "type": "image/webp"
+  },
+  "/images/vehiclecare-garage-360.webp": {
+    "width": 360,
+    "height": 783,
+    "type": "image/webp"
+  }
+}
